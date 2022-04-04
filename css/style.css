@@ -1,0 +1,97 @@
+body {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 80px;
+}
+
+.logo-link {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.nav-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav-menu-item {
+  margin-right: 30px;
+}
+
+.nav-menu-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.film-date {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 38px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.film-description {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 423px;
+}
+
+.button-group {
+  margin-top: 70px;
+}
+
+.button {
+  cursor: pointer;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.button-icon, .button-text {
+  vertical-align: middle;
+}
+
+.button-text {
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 10px;
+}
+
+.button-primary {
+  color: #8D0019;
+  background-color: #fff;
+}
+
+.button-tickets {
+  color: #fff;
+}
+
+.venom-photo {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  width: 626px;
+  height: 724px;
+}
+
+.blood {
+  background: url(../img/venom-bg.png) no-repeat center center / 100%, #14131A;
+}
+
